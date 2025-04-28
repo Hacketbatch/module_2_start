@@ -9,3 +9,11 @@ def index():
 def about():
     return render_template('about.html')
 
+@app.route('/newby')
+def newby():
+    return render_template('newPage.html')
+
+@app.route('/contact')
+def contact():
+    return render_template('Contact us.html')
+
